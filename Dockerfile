@@ -11,7 +11,8 @@ RUN dnf install -y \
     unzip \
     which \
     java-11-openjdk-devel \
+    perl-core \
+    zlib-devel \
+    pcre2-devel \
+    && dnf install -y libyaml-devel --enablerepo=devel \
     && dnf clean all
-
-RUN curl -fsSL https://github.com/bazelbuild/bazelisk/releases/latest/download/bazelisk-linux-arm64 -o /usr/local/bin/bazel && \
-    chmod +x /usr/local/bin/bazel
