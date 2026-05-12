@@ -1,0 +1,14 @@
+VeeCode APIP — kong-builder
+Copyright 2025-2026 Vertigo
+
+This image provides the build toolchain used to compile the VeeCode APIP
+distribution of Kong Gateway locally (e.g. for reproducing CI builds on a
+workstation). It is part of the VeeCode APIP project:
+
+    https://github.com/veecode-gateway/apip-parent
+
+Kong Gateway is OSS published by Kong Inc.
+(https://github.com/Kong/kong), licensed under the Apache License,
+Version 2.0.
+
+This image is licensed under the Apache License, Version 2.0 (see LICENSE).
